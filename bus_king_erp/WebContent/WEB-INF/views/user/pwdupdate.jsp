@@ -44,13 +44,13 @@ function pwdup(){
 			<input type="hidden" value="${sessionScope.name}" name="name">
 			<ul>
 				<li>
-					<div align="center"> <span>현재 비밀번호</span><br><input type="text" name="currentpwd"> </div>
+					<div align="center"> <span>현재 비밀번호</span><br><input type="password" name="currentpwd"> </div>
 				</li>
 				<li>
-					<div align="center"> <span>변경할 비밀번호</span><br><input type="text" name="updatepwd"></div>
+					<div align="center"> <span>변경할 비밀번호</span><br><input type="password" name="updatepwd"></div>
 				</li>
 				<li>
-					<div align="center"> <span>변경할 비밀번호 확인</span><br><input type="text" name="updatepwd2"></div>
+					<div align="center"> <span>변경할 비밀번호 확인</span><br><input type="password" name="updatepwd2"></div>
 				</li> 
 				<li style="text-align: left; margin: 0px; margin-left: 10px;">
 					<a style="color: red; margin-left: 10px; " id="err"></a>
